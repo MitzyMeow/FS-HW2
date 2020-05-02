@@ -1,0 +1,51 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.toolbar{
+    list-style-type: none;
+}
+ul.toolbar > li {
+    display:inline;
+}
+.toolbar-Login{
+    float:right;
+}
+.psection{
+    width : 75%;
+    float: left;
+}
+
+hr {
+    border: 1px solid black;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.list-section{
+    width : 25%;
+    overflow: hidden;
+}
+section.psection > div.post{
+    position: relative;
+    border: 1px solid black;
+    height : 100px;
+    margin: 5px;
+}
+div.post > h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+.post-publish-data {
+    position: absolute;
+    bottom: 0;
+}
+.picture {
+    height:70px;
+    weight: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
